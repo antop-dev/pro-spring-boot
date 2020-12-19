@@ -1,0 +1,12 @@
+POST http://localhost:8080/oauth/token
+Content-Type: application/x-www-form-urlencoded
+#Authorization: Basic e0c7850e-6db4-472f-b085-c85e0e4e9b0e 5ae2ad79-9e34-48b1-a98b-751ab039b2da
+Authorization: Basic {{username}} {{password}}
+
+grant_type=password&scope=read&username=springboot&password=isawesome
+
+###
+
+GET http://localhost:8080/api/journal
+Content-Type: application/json
+Authorization: Bearer krQuuMTxfG4J6hMfmhS1jIaweVA
