@@ -1,0 +1,25 @@
+GET http://localhost:8080/api/journal/search
+Accept: application/json
+
+###
+
+
+GET http://localhost:8080/api/journal/search/findByTitleContaining?word=클라우드
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/journal/search/findByCreatedAfter?after=2016-02-05
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/journal/search/findByCreatedBetween?after=2016-02-01&before=2016-03-01
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/journal/search/findBySummaryContaining?word=클라우드
+Accept: application/json
+
+###
