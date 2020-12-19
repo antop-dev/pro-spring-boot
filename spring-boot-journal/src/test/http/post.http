@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/journal
+Content-Type: application/json
+
+{
+  "title": "클라우드 파운드리",
+  "summary": "클라우드 파운드리가 무엇인지, 그리고 스프링 부트 애플리케이션을 푸시하는 방법을 배웠다",
+  "created": "2016-04-05"
+}
+
+###
