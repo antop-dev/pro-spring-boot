@@ -23,6 +23,11 @@ spring init \
     -x 
 ```
 
+## Spring Boot JMS
+
+Starter for JMS messaging using HornetQ. Deprecated as of 1.4 in favor of [spring-boot-starter-artemis](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-artemis)
+
 ## References
 
 * [OAuth 2.0 Migration Guide](https://github.com/spring-projects/spring-security/wiki/OAuth-2.0-Migration-Guide)
+* [Immutable @ConfigurationProperties Binding](https://www.baeldung.com/configuration-properties-in-spring-boot#immutable-configurationproperties-binding)
